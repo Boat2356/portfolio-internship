@@ -14,7 +14,7 @@
 - Github: https://github.com/Boat2356
 
 ## Education
-- Bachelor of Science Program in Computer Science | Khon Kaen University (2022)
+- Bachelor of Science Program in Computer Science | Khon Kaen University (_2022_)
 - GPA: 3.89 (5 semesters)
 
 ## Projects
@@ -23,11 +23,15 @@
 [View Project](https://github.com/Boat2356/EDA_ThaiRoadAccident2022)
 - Utilized a dataset consisting of 37 columns and 21,032 rows sourced from the Ministry of Transport (MOT) Data Catalog.
 - Applied Exploratory Data Analysis (EDA) techniques to uncover valuable insights and trends within the data, focusing on understanding the patterns and factors - contributing to road accidents in Thailand.
+  
+---
 
 ### Exploratory Data Analysis and Heart Disease Prediction Using Machine Learning. (_Jul 2023 - Oct 2023_)
 [View Project](https://github.com/Boat2356/Exploratory-Data-Analysis-and-Heart-Disease-Prediction-Using-Machine-Learning)
 - Performed EDA on a cardiovascular disease dataset (308,855 rows, 19 columns) from the CDC BRFSS.
 - Developed and evaluated ML models (Logistic Regression, Decision Tree, Random Forest) for risk prediction using metrics like Confusion Matrix, Validation Curve, and Learning Curve.
+
+---
 
 ### Customer Reviews and Basic Information Management System for Wimandin Spa (_Oct 2023 - Mar 2024_)
 [View Project](https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa)
@@ -55,6 +59,51 @@
 - Manage spa rooms and frequently asked questions (FAQs).
 - Edit and manage the shop’s contact information.
 - Edit or delete customer reviews.
+
+---
+  
+### Weather Data Pipeline with Apache Airflow (_FebMay 2024_)
+[View Project](https://github.com/Boat2356/Data-pipeline-with-apache-airflow)
+
+#### Tools Used
+- Apache Airflow: Orchestrating the ETL process
+- Docker: Containerizing the application for portability
+- Visual Studio Code: Code editor for development
+- DBeaver: PostgreSQL database management and querying
+
+#### About Meteostat API
+- Provides access to historical weather and climate data via a JSON API.
+- Data can be filtered by weather station or location, with optional parameters.
+- API endpoint: [Meteostat Developers](https://dev.meteostat.net/api/stations/daily.html)
+
+#### Process Overview
+- Objective: The DAG is designed to fetch, clean, and store weather data in a PostgreSQL database.
+  
+#### Workflow
+- Task 1: extract_data_from_API – Fetches weather data for the previous day from the Meteostat API.
+- Task 2: read_and_clean_csv – Cleans the raw weather data, filling missing values and formatting.
+- Task 3: fetch_and_display_data – Fetches and displays the data from the PostgreSQL database.
+- Task Execution Order: extract_data_from_API → 2. read_and_clean_csv → 3. fetch_and_display_data
+
+---
+
+### Web Application for Managing Course Projects in Computer Science (_July 2024 - Sep 2024_)
+[View Project](https://github.com/Boat2356/Project-management-system)
+
+#### Objective
+- Developed a web application to manage course projects for Computer Science students, facilitating efficient project submission, search, and access for both students and instructors.
+
+#### Key Features
+- Students can upload, store, search, and view their project work.
+- Administrators can manage and moderate project data.
+- Supports project search, create, edit, delete, upload, and download functionalities.
+  
+#### Technologies Used:
+- Frontend: ReactJS, Bootstrap
+- Backend: Spring Boot
+- Database: MySQL
+
+---
 
 ### Restaurant Recommendation System Using Machine Learning (_Jul 2024 - Present_)
 [View Project](https://github.com/Boat2356/Restaurant_recommendation_system)
