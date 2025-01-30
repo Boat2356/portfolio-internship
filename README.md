@@ -62,7 +62,7 @@
 
 ---
   
-### Weather Data Pipeline with Apache Airflow (_FebMay 2024_)
+### Weather Data Pipeline with Apache Airflow (_Feb 2024 - May 2024_)
 [View Project](https://github.com/Boat2356/Data-pipeline-with-apache-airflow)
 
 #### Tools Used
